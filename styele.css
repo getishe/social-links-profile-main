@@ -11,6 +11,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 12%);
 }
 
 section {
@@ -19,17 +20,20 @@ section {
   justify-content: center;
   align-items: center;
   border: 2px solid green;
+  background-color: hsl(0, 0%, 8%);
 }
 
 .social {
   border: 2px solid red;
   padding: 10px;
+  background-color: hsl(0, 0%, 12%);
 }
 
 .social-links {
   border: 2px solid black;
-  padding: 30px;
+  /* padding: 30px; */
   margin: 10px;
+  text-align: center;
 }
 
 .social-links img {
@@ -39,9 +43,29 @@ section {
   margin: 10px;
 }
 /* .jes {
-  padding: 24px;
+  align-content: center;
+  justify-content: center;
+  display: grid;
 } */
 
 .social-links h1 {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 9px;
+}
+
+p.london {
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: hsl(75, 94%, 57%);
+}
+
+p.quote {
+  margin: 10px;
+  /* border: 2px solid red; */
+  font-size: 11px;
+  color: hsl(0, 1%, 63%);
+  font-weight: 400;
 }
