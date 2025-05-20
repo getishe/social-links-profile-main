@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(https://fonts.google.com/specimen/Inter) format("truetype");
+  font-weight: 700;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.social {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.social-links {
+  border: 2px solid black;
+  padding: 30px;
+  margin: 10px;
+}
+
+.social-links img {
+  border-radius: 200px;
+  height: 20%;
+  width: 20%;
+  margin: 10px;
+}
+/* .jes {
+  padding: 24px;
+} */
+
+.social-links h1 {
+  font-size: 1rem;
+}
