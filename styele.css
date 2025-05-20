@@ -14,6 +14,10 @@ body {
   background-color: hsl(0, 0%, 12%);
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   min-height: 100vh;
   display: flex;
@@ -43,11 +47,9 @@ section {
   width: 20%;
   margin: 10px;
 }
-/* .jes {
-  align-content: center;
-  justify-content: center;
-  display: grid;
-} */
+.jes {
+  margin-top: 1rem;
+}
 
 .social-links h1 {
   font-size: 1.1rem;
@@ -90,8 +92,14 @@ li {
   /* border: 2px solid red; */
   color: hsl(0, 0%, 100%);
   margin: 0.5rem;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   border-radius: 6px;
   background-color: hsl(0, 0%, 20%);
+}
+
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
 }
