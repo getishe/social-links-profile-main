@@ -24,13 +24,13 @@ section {
 }
 
 .social {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* padding: 10px; */
   background-color: hsl(0, 0%, 12%);
 }
 
 .social-links {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   /* padding: 30px; */
   /* margin: 10px; */
   text-align: center;
@@ -72,7 +72,7 @@ p.quote {
 
 .social-media {
   /* border: 2px solid yellow; */
-  margin: 40px;
+  margin: 20px;
 }
 ul {
   /* border: 2px solid salmon; */
@@ -87,7 +87,9 @@ ul li {
 
 li {
   /* border: 2px solid red; */
+  color: hsl(0, 0%, 100%);
   margin: 0.5rem;
-  font-size: small;
+  font-size: 12px;
+  font-weight: 400;
   background-color: hsl(0, 0%, 20%);
 }
