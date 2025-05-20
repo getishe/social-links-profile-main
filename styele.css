@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 
 section {
@@ -98,7 +99,12 @@ li {
   background-color: hsl(0, 0%, 20%);
 }
 
-li:hover {
+/* a {
+ 
+} */
+
+li:hover,
+li:hover a {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
   cursor: pointer;
