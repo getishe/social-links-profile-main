@@ -26,6 +26,7 @@ section {
 .social {
   /* border: 2px solid red; */
   /* padding: 10px; */
+  border-radius: 6px;
   background-color: hsl(0, 0%, 12%);
 }
 
@@ -90,6 +91,7 @@ li {
   color: hsl(0, 0%, 100%);
   margin: 0.5rem;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
+  border-radius: 6px;
   background-color: hsl(0, 0%, 20%);
 }
